@@ -14,9 +14,6 @@
 		"mongodb": "^6.0.0",
 		"mongoose": "^7.5.0"
 	},
-	"repository": {
-		"url": "https://github.com/freeCodeCamp/boilerplate-project-exercisetracker"
-	},
 	"license": "MIT",
 	"keywords": [
 		"node",
