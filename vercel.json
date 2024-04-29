@@ -1,7 +1,7 @@
 {
     "version": 2,
     "builds": [{ "src": "index.js", "use": "@vercel/node" }],
-    "routes": [{ "src": "/(.*)", "dest": "/index.js", "methods": ["GET", "POST"],
+    "routes": [{ "src": "/", "dest": "/index.js", "methods": ["GET", "POST"],
     "headers": {
       "Access-Control-Allow-Origin": "*"
     } }]
