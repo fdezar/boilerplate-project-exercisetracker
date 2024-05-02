@@ -12,13 +12,12 @@ mongoose.connect(process.env.URL_DB, {
 });
 
 app.use(cors());
-// app.use(express.static('public'));
+app.use(express.static('public'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/views/index.html');
-  res.sendFile(__dirname + '/views/style.css');
 });
 
 const Schema = mongoose.Schema;
