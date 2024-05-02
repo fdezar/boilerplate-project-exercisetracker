@@ -5,7 +5,5 @@
     "headers": {
       "Access-Control-Allow-Origin": "*"
     } }],
-    "static": {
-      "source": "public"
-    }
+    "public": "public"
   }
