@@ -1,4 +1,4 @@
-* {
+/* * {
   box-sizing: border-box;
 }
 
@@ -56,4 +56,59 @@ code {
   font-size: 1.2em;
   background-color: #FFFEC4;
   padding: 2px;
+} */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+form {
+  background-color: paleturquoise;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+form input[type="text"], form button {
+  margin-bottom: 10px;
+}
+
+form input[type="text"] {
+  border: 1px solid lightgrey;
+}
+
+form input[type="submit"] {
+  background-color: #E4F1FE;
+  border: 1px solid grey;
+  box-shadow: 2px 2px #999;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #FFFEC4;
+}
+
+code {
+  font-family: monospace;
+  font-size: 0.9em;
+  background-color: #f5f5f5;
+  padding: 2px;
+  color: black;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+footer a {
+  color: #222; 
 }
