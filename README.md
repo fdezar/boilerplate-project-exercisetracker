@@ -20,7 +20,7 @@ Exercise Tracker is a web application that allows users to track their exercises
 
 1. Clone this repository:
 
-git clone https://github.com/your-username/exercise-tracker.git
+git clone https://github.com/fdezar/exercise-tracker.git
 
 2. Install dependencies:
 
